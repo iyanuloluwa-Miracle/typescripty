@@ -5,7 +5,7 @@ import * as _ from "lodash";
 import User from "../models/userModel";
 import { AuthRequest } from "../types/types";
 import { response } from "./../utils";
-import { io } from "../sockets/socket.server";
+import { io } from "../sockets/socket.service";
 
 class UserController {
   static async createUser(req: Request, res: Response) {
