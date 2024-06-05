@@ -1,11 +1,11 @@
-import AuthController from "./auth.controller";
-import UserController from "./user.controller";
-import HospitalController from "./hospital.controller";
-import AppointmentController from "./appointment.controller";
-import ReviewController from "./review.controller";
-import RoomController from "./room.controller";
-import MedicalRecordController from "./medical-records.controller";
-import SymptomsChecker from "./symptoms-checker.controller";
+import AuthController from "./authController";
+import UserController from "./userController";
+import HospitalController from "./hospitalController";
+import AppointmentController from "./appointmentController";
+import ReviewController from "./reviewController";
+import RoomController from "./roomController";
+import MedicalRecordController from "./medicalRecordsController";
+import SymptomsChecker from "./symptomsCheckerController";
 
 export  {
   AuthController,
