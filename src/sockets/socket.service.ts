@@ -2,7 +2,7 @@ import http from "http";
 import { Server } from "socket.io";
 import { Message } from "../models";
 import { SocketMessage, GlobalUser } from "../types/types";
-import { User } from "../models";
+import { User, Hospital } from "../models";
 
 let io: Server;
 
